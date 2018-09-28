@@ -9,11 +9,6 @@ package com.mycompany.javastudy;
  *
  * @author ssmokov
  */
-public class Main {
-    
-    public static void main(String[] args) {
-        System.out.println("Start StudyProject!");
-            
-    }
+public class GetHTML {
     
 }

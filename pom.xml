@@ -11,4 +11,26 @@
         <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
     <name>StudyProject</name>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.6.0</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <finalName>studyproject</finalName>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.mycompany.javastudy.Main</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>  
 </project>
